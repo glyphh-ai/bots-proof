@@ -1,0 +1,34 @@
+rep 1: always-opus
+rep 1: always-sonnet
+rep 1: routed
+coder run 20261103-072355-cd14 (routine)
+  run seed
+  seeded route from the lab: ['b1_intervals: haiku', 'b2_lru: haiku', 'b3_roman: haiku', 'b4_bank: haiku', 'i1_duration: haiku', 'i2_semver: haiku', 'i3_wrap: haiku', 'i4_cron: haiku', 'i5_expr: haiku', 'm1_reserve: haiku', 'm2_csv: haiku', 'm3_money: haiku']
+  run work
+  h1_slugify: routed haiku (P 1.00); tried [('haiku', 1)]
+  h2_ratelimit: routed haiku (P 1.00); tried [('haiku', 1)]
+  h3_toposort: routed haiku (P 1.00); tried [('haiku', 1)]
+  h4_template: routed haiku (P 1.00); tried [('haiku', 1)]
+  h5_events: routed haiku (P 1.00); tried [('haiku', 1)]
+  run report
+
+coder run 20261103-072355-cd14: done
+rep 2: always-opus
+rep 2: always-sonnet
+rep 2: routed
+coder run 20261103-072829-30c7 (routine)
+  run seed
+  run work
+  h1_slugify: routed haiku (P 1.00); tried [('haiku', 1)]
+  h2_ratelimit: routed haiku (P 1.00); tried [('haiku', 1)]
+  h3_toposort: routed haiku (P 1.00); tried [('haiku', 1)]
+  h4_template: routed haiku (P 1.00); tried [('haiku', 1)]
+  h5_events: routed haiku (P 1.00); tried [('haiku', 1)]
+  run report
+
+coder run 20261103-072829-30c7: done
+| arm | tasks | passed | pass % | total $ | $ vs always-opus | total s |
+|---|---|---|---|---|---|---|
+| always-opus | 10 | 10 | 100 | 1.057 | 1.00x | 315.2 |
+| always-sonnet | 10 | 9 | 90 | 0.487 | 0.46x | 279.5 |
+| routed | 10 | 10 | 100 | 0.050 | 0.05x | 351.0 |

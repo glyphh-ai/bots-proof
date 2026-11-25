@@ -1,0 +1,55 @@
+{
+  "slug": "morning_find_hacker",
+  "name": "Morning HN: agents and memory",
+  "summary": "Each morning: the last day's Hacker News stories about AI agents and memory, minus the ones already seen; a gate learns which mornings are worth a digest, and the agent picks the stories worth Chris's time and writes it",
+  "version": 1,
+  "agent": "agent.md",
+  "reads_glyphh": true,
+  "touches": "read_only",
+  "hosts": ["hn.algolia.com"],
+  "seed": {
+    "personality": ["Plain and short; says why a story matters in one line; no hype words."],
+    "instructions": [
+      "Keep only stories about AI agents or memory for AI (agent memory, long context, retrieval, state); drop hardware RAM news, launches with nothing new, and rehashes.",
+      "Lead with the one story most worth reading; say plainly when nothing today is."
+    ],
+    "memory": []
+  },
+  "gates": {
+    "worth_digest": {
+      "case": "worth_case",
+      "outcomes": ["write", "skip"],
+      "spec": {
+        "name": "worth_digest",
+        "layers": [
+          {"name": "morning", "segments": [
+            {"name": "found", "roles": [
+              {"name": "stories", "numeric_config": {"min_value": 0, "max_value": 50, "bin_width": 1}},
+              {"name": "agent_stories", "numeric_config": {"min_value": 0, "max_value": 50, "bin_width": 1}},
+              {"name": "memory_stories", "numeric_config": {"min_value": 0, "max_value": 50, "bin_width": 1}},
+              {"name": "top_points", "numeric_config": {"min_value": 0, "max_value": 1000, "bin_width": 25}},
+              {"name": "top_comments", "numeric_config": {"min_value": 0, "max_value": 500, "bin_width": 20}},
+              {"name": "titles", "text_encoding": "bag_of_words"}
+            ]},
+            {"name": "when", "roles": [
+              {"name": "weekday"},
+              {"name": "days_since_sent", "numeric_config": {"min_value": 0, "max_value": 14, "bin_width": 1}},
+              {"name": "run", "key_part": true, "similarity_weight": 0}
+            ]}
+          ]}
+        ],
+        "output": {"costs": {"skip": {"write": 2}, "write": {"skip": 1}}, "ask_below": 0.7}
+      }
+    }
+  },
+  "loop": [
+    {"id": "stories", "run": "stories"},
+    {"id": "keep", "run": "keep", "input": "$stories"},
+    {"id": "worth", "gate": "worth_digest", "on": {"write": "digest", "skip": "end"}},
+    {"id": "digest", "agent": "From these new Hacker News stories of the last day, pick the ones about AI agents and memory that are worth Chris's time, and write the morning digest.\n\nNew stories (most points first): $keep",
+     "skill": "hn-digest", "remember": true},
+    {"id": "deliver", "run": "deliver", "input": "$digest"}
+  ],
+  "routine": {"cron": "30 7 * * *", "tz": "America/Chicago"},
+  "limits": {"seconds": 300, "agent_turns": 3}
+}

@@ -1,0 +1,320 @@
+morning_find_hacker run 20261103-073004-21c9 (routine)
+  run stories
+  found 8 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (5696 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261103-073004-21c9: done
+morning_find_hacker run 20261110-073003-acdc (routine)
+  run stories
+  found 4 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (4589 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261110-073003-acdc: done
+morning_find_hacker run 20261111-073005-3315 (routine)
+  run stories
+  found 6 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (6057 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261111-073005-3315: done
+morning_find_hacker run 20261112-073004-618d (routine)
+  run stories
+  found 14 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (9907 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261112-073004-618d: done
+morning_find_hacker run 20261113-073004-0ff7 (routine)
+  run stories
+  found 6 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (9054 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261113-073004-0ff7: done
+morning_find_hacker run 20261114-073004-4006 (routine)
+  run stories
+  found 4 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (9325 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261114-073004-4006: done
+morning_find_hacker run 20261115-073003-1221 (routine)
+  run stories
+  found 4 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (10400 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261115-073003-1221: done
+morning_find_hacker run 20261116-073004-bf25 (routine)
+  run stories
+  found 8 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (12705 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261116-073004-bf25: done
+morning_find_hacker run 20261117-073005-14f8 (routine)
+  run stories
+  found 10 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (14810 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261117-073005-14f8: done
+morning_find_hacker run 20261118-073005-1003 (routine)
+  run stories
+  found 10 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (15803 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261118-073005-1003: done
+morning_find_hacker run 20261119-073005-71f2 (routine)
+  run stories
+  found 10 stories
+  run keep
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 1335, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              encode_chunked=req.has_header('Transfer-encoding'))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1398, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1444, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1393, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1153, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1097, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1536, in connect
+    super().connect()
+    ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1063, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/socket.py", line 859, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/socket.py", line 998, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 647, in _exchange
+    answer = self._send(method, url, headers, raw)
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 485, in _urllib
+    with urllib.request.urlopen(request, timeout=DEFAULT_TIMEOUT) as response:  # noqa: S310  # Ada's own address
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 489, in open
+    response = self._open(req, data)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 1383, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 1338, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 446, in <module>
+    main(sys.argv[1:])
+    ~~~~^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 428, in main
+    run(bot, "--routine" in argv)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 359, in run
+    walk(bot, run_id, 0, {}, routine)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 289, in walk
+    outcome = gate_step(client, bot, ctx, step, data, routine, answer)
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 222, in gate_step
+    held = next((m.precedents for m in client.models() if m.name == model.name), 0)
+                                       ~~~~~~~~~~~~~^^
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 687, in models
+    return [ModelInfo(m) for m in self._call("GET", "/v1/models")["models"]]
+                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 627, in _call
+    return self._once(method, path, raw, extra)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 659, in _once
+    status, content, got = self._exchange(method, f"{self.url}{path}", headers, raw)
+                           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 649, in _exchange
+    raise AdaError("E_UNREACHABLE", f"Ada could not be reached: {e}") from e
+glyphh.errors.AdaError: Ada could not be reached: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+morning_find_hacker run 20261120-073004-9eae (routine)
+  run stories
+  found 7 stories
+  run keep
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 1335, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              encode_chunked=req.has_header('Transfer-encoding'))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1398, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1444, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1393, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1153, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1097, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1536, in connect
+    super().connect()
+    ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/http/client.py", line 1063, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/socket.py", line 859, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/socket.py", line 998, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 647, in _exchange
+    answer = self._send(method, url, headers, raw)
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 485, in _urllib
+    with urllib.request.urlopen(request, timeout=DEFAULT_TIMEOUT) as response:  # noqa: S310  # Ada's own address
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 489, in open
+    response = self._open(req, data)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 1383, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 1338, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 446, in <module>
+    main(sys.argv[1:])
+    ~~~~^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 428, in main
+    run(bot, "--routine" in argv)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 359, in run
+    walk(bot, run_id, 0, {}, routine)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 289, in walk
+    outcome = gate_step(client, bot, ctx, step, data, routine, answer)
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 222, in gate_step
+    held = next((m.precedents for m in client.models() if m.name == model.name), 0)
+                                       ~~~~~~~~~~~~~^^
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 687, in models
+    return [ModelInfo(m) for m in self._call("GET", "/v1/models")["models"]]
+                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 627, in _call
+    return self._once(method, path, raw, extra)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 659, in _once
+    status, content, got = self._exchange(method, f"{self.url}{path}", headers, raw)
+                           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/.venv/lib/python3.15/site-packages/glyphh/client.py", line 649, in _exchange
+    raise AdaError("E_UNREACHABLE", f"Ada could not be reached: {e}") from e
+glyphh.errors.AdaError: Ada could not be reached: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+morning_find_hacker run 20261121-073000-cc04 (routine)
+  run stories
+  found 3 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (12994 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261121-073000-cc04: done
+morning_find_hacker run 20261122-073000-302c (routine)
+  run stories
+  found 2 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (11300 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261122-073000-302c: done
+morning_find_hacker run 20261123-073004-188d (routine)
+  run stories
+  found 3 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (11063 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261123-073004-188d: done
+morning_find_hacker run 20261124-073005-a2bd (routine)
+  run stories
+  found 6 stories
+  run keep
+  gate worth_digest: write (P 1.00, from 1 precedents) — decided by Ada
+  agent morning-find-hacker: digest (12558 chars in, memory yes)
+  run deliver
+
+morning_find_hacker run 20261124-073005-a2bd: done

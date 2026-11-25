@@ -1,0 +1,14 @@
+lab run 20261103-070916-4600 (routine)
+  run budget
+  run review
+  agent lab: propose (5443 chars in, memory yes)
+  run choose
+  run run_all
+  running exp_e1
+  running exp_e2
+  running exp_e3
+  run report
+  agent lab: playbook (5696 chars in, memory yes)
+  run deliver
+
+lab run 20261103-070916-4600: done

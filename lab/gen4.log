@@ -1,0 +1,35 @@
+lab run 20261103-070942-cd00 (routine)
+  run budget
+  run review
+  finished e1: decisive: plain/haiku matches at 9.7x less cost
+  finished e2: decisive: plain/haiku matches at 11.5x less cost
+  finished e3: null: no difference worth having
+  agent lab: propose (6952 chars in, memory yes)
+  run choose
+made gate model bot-exp-e4-gate-trial
+made memory model bot-exp-e4-memory
+made memory model bot-exp-e4-instructions
+made memory model bot-exp-e4-personality
+exp_e4 installed
+  made exp_e4: Does Haiku pass as many multifile tasks as Sonnet with the plain strategy? (P decisive 1.00)
+made gate model bot-exp-e5-gate-trial
+made memory model bot-exp-e5-memory
+made memory model bot-exp-e5-instructions
+made memory model bot-exp-e5-personality
+exp_e5 installed
+  made exp_e5: Does Sonnet pass as many multifile tasks as Opus with the plain strategy? (P decisive 0.95)
+made gate model bot-exp-e6-gate-trial
+made memory model bot-exp-e6-memory
+made memory model bot-exp-e6-instructions
+made memory model bot-exp-e6-personality
+exp_e6 installed
+  made exp_e6: Does asking Haiku to cover edge cases make it pass more implement tasks than plain? (P decisive 0.17)
+  run run_all
+  running exp_e4
+  running exp_e5
+  running exp_e6
+  run report
+  agent lab: playbook (8267 chars in, memory yes)
+  run deliver
+
+lab run 20261103-070942-cd00: done

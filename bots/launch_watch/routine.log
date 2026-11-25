@@ -1,0 +1,200 @@
+launch_watch run 20261103-084705-42e2 (routine)
+  run numbers
+Traceback (most recent call last):
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 446, in <module>
+    main(sys.argv[1:])
+    ~~~~^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 428, in main
+    run(bot, "--routine" in argv)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 359, in run
+    walk(bot, run_id, 0, {}, routine)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 284, in walk
+    data[step["id"]] = getattr(bot.program, step["run"])(ctx, fill(step.get("input"), data))
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/bots/launch_watch/program.py", line 17, in numbers
+    pypi = ctx.http_json(f"https://pypistats.org/api/packages/{PYPI}/recent").get("data", {})
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 111, in http_json
+    with urllib.request.urlopen(req, timeout=20) as res:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+launch_watch run 20261110-084705-6a28 (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261110-084705-6a28: done
+launch_watch run 20261111-084704-9681 (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261111-084704-9681: done
+launch_watch run 20261112-084704-8d7a (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261112-084704-8d7a: done
+launch_watch run 20261113-084705-ccdf (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261113-084705-ccdf: done
+launch_watch run 20261114-084705-ca27 (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261114-084705-ca27: done
+launch_watch run 20261115-084705-bc79 (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261115-084705-bc79: done
+launch_watch run 20261116-084704-22ae (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261116-084704-22ae: done
+launch_watch run 20261117-084704-5312 (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261117-084704-5312: done
+launch_watch run 20261118-084704-26ee (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261118-084704-26ee: done
+launch_watch run 20261119-084705-71a6 (routine)
+  run numbers
+Traceback (most recent call last):
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 446, in <module>
+    main(sys.argv[1:])
+    ~~~~^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 428, in main
+    run(bot, "--routine" in argv)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 359, in run
+    walk(bot, run_id, 0, {}, routine)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 284, in walk
+    data[step["id"]] = getattr(bot.program, step["run"])(ctx, fill(step.get("input"), data))
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/bots/launch_watch/program.py", line 13, in numbers
+    repo = ctx.http_json(f"https://api.github.com/repos/{REPO}")
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 111, in http_json
+    with urllib.request.urlopen(req, timeout=20) as res:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+launch_watch run 20261120-084701-008a (routine)
+  run numbers
+Traceback (most recent call last):
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 446, in <module>
+    main(sys.argv[1:])
+    ~~~~^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 428, in main
+    run(bot, "--routine" in argv)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 359, in run
+    walk(bot, run_id, 0, {}, routine)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 284, in walk
+    data[step["id"]] = getattr(bot.program, step["run"])(ctx, fill(step.get("input"), data))
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/timmetim/development/glyphh/bots-proof/bots/launch_watch/program.py", line 13, in numbers
+    repo = ctx.http_json(f"https://api.github.com/repos/{REPO}")
+  File "/Users/timmetim/development/glyphh/bots-proof/botrun.py", line 111, in http_json
+    with urllib.request.urlopen(req, timeout=20) as res:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+launch_watch run 20261121-084704-afda (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261121-084704-afda: done
+launch_watch run 20261122-084705-3cd1 (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261122-084705-3cd1: done
+launch_watch run 20261123-084705-ad61 (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261123-084705-ad61: done
+launch_watch run 20261124-084705-b90a (routine)
+  run numbers
+  run keep
+  gate worth_sending: skip (P 1.00, from 1 precedents) — decided by Ada
+  the gate ends the run here
+
+launch_watch run 20261124-084705-b90a: done
